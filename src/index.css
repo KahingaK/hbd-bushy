@@ -10,21 +10,14 @@
   
 }
 
-body{
-  background-color: #fdbf00;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
- 
-}
+
  
 
 .card {
  
   width: 640px; /* Set a maximum width */
   height: 400px;
-  position: absolute;
+  position: relative;
   margin: auto;
   right:0;
   top: 0;
