@@ -6,7 +6,7 @@ import bg from "./assets/bg.jpg";
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-[#fdbf00] flex justify-center items-center">
+    <div className="min-h-screen flex justify-center items-center">
     <div className="flex justify-center items-center">
     <div className="card left-[-20%] lg:left-0">
         <div className="outside">
