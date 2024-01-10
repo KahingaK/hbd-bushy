@@ -7,7 +7,7 @@ import bg from "./assets/bg.jpg";
 function App() {
   return (
     <div className="App">
-    <div className="p-32">
+    <div className="">
     <div className="card">
         <div className="outside">
           <div className="front">

@@ -12,10 +12,10 @@
 
 body{
   background-color: #fdbf00;
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100vh; */
  
 }
  
@@ -24,7 +24,7 @@ body{
  
   width: 640px; /* Set a maximum width */
   height: 400px;
-  position: relative;
+  position: absolute;
   margin: auto;
   left: 0;
   right:0;
