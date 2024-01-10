@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.Happy { 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 500;
+
+}
