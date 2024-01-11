@@ -9,6 +9,7 @@ module.exports = {
       dancing: "Dancing Script",
       flower: "Indie Flower",
       doodle: "Rubik Doodle Shadow",
+      kalam: "Kalam"
     },
     container: {
       padding: {

@@ -3,34 +3,57 @@ import "./App.css";
 import HappyBirthday from "./components/HappyBirthday";
 import HeroSlider from "./components/pages/HeroSlider";
 import cake from "./assets/cake.png";
+import loons from "./assets/loons.png";
+import confetti from "./assets/confetti.png";
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center items-center">
-    <div className="flex justify-center items-center">
-    <div className="card left-[-20%] lg:left-0">
-        <div className="outside ">
-          <div className="front bg-gradient-to-r from-[#CBEFB6] to-[#48ada9]">
-        
-            
-            <div className=" flex flex-col justify-center items-center">
-            <h1 className='text-center uppercase font-doodle  font-medium text-[#255957] text-3xl pb-2 pt-6 mx-4 mt-6'>
-            happy birthday Bushy!
-            </h1>
-              <img
-                className="w-[80%]    "
-                alt=""
-                src={cake}
-              />
-            </div>
-          </div>
-          <div className="back">back</div>
-      
-        </div>
-        <div className="inside">{/* <HeroSlider/> */}</div>
+    <div className="birthdayCard">
+    <div className="cardFront">
+      <div className="front-text ">
+      <h3 className="happy">HAPPY</h3>
+      <h2 className="bday">BIRTHDAY</h2> 
+      <h3 className="toyou">BUSHY!</h3>  
       </div>
+      <div className="wrap-deco z-10">
+    <div className="decorations"></div>
+    <div className="decorationsTwo"></div>
+      </div> 
+        <div className="wrap-decoTwo z-10">
+    <div className="decorations"></div>
+    <div className="decorationsThree"></div>
+      </div>
+      <div className=" absolute w-[140px] h-[5px] left-[60px] top-[110px]">
+        <img alt="" src={cake}/>
+       
+      </div>
+      <div className="deco absolute w-[140px] w-[40%] h-[5px] left-[1px] top-[112px]">
+        <img alt="" src={loons}/>
+       
+      </div>
+      <div className=" deco absolute w-[140px] w-[40%] h-[5px] left-[150px] top-[110px] scale-x-[-1]">
+        <img alt="" src={loons}/>
+       
+      </div>
+      {/* <div className="deco z-0 absolute w-[140px] h-[5px] left-[-50px] top-[270px] ">
+        <img alt="" src={confetti}/>
+       
+      </div> */}
+
     </div>
       
+      <div className="cardInside">
+         <div className="inside-text">
+      <h3 className="happy">HAPPY</h3>
+      <h2 className="bday">BIRTHDAY</h2> 
+      <h3 className="toyou">to you!</h3>  
+      </div>
+        <div className="wishes font-kalam">
+        <p>Dear Friend,</p>
+        <p>Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true.</p>
+        <p className="name font-dancing">xxx</p>
+        </div>
+      </div>
     </div>
   );
 }
