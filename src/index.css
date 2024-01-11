@@ -11,7 +11,7 @@
 }
 
 body{
-  background-color: #fdbf00;
+  background-color: #FF5C5C;
  
 }
  
@@ -45,11 +45,13 @@ body{
   width: 50%;
   position: absolute;
   left: 50.1%;
+  
+
 }
 
 .inside {
 
-  background: linear-gradient(to right, #e0e0e0, #ffffff 30%);
+  background: linear-gradient(to right, #e0e0e0, #ffffff 35%);
   line-height: 3;
   padding: 0 20px;
   text-align: center;
@@ -58,8 +60,7 @@ body{
   justify-content: space-around;
   align-items: center;
   left: 50%;
-   
-
+ 
 }
 .outside {
    -webkit-transform-style: preserve-3d;
@@ -79,11 +80,12 @@ body{
   transform: rotateX(0deg);
   
 }
-.front{
-  background-color: white;
-}
+/* .front{
+  border-color:#48ada9;
+  border-width: 8px;
+} */
 
 .back {
   transform: rotateY(180deg);
-  background: linear-gradient(to left, #e0e0e0, #ffffff   30%);
+  background: linear-gradient(to left, #e0e0e0, #ffffff   35%);
 }
