@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/hbd-bushy/static/css/main.a4c4a92e.css",
-    "main.js": "/hbd-bushy/static/js/main.07e1c725.js",
+    "main.css": "/hbd-bushy/static/css/main.a9f77fca.css",
+    "main.js": "/hbd-bushy/static/js/main.4fde3b4d.js",
     "static/js/787.9b863e54.chunk.js": "/hbd-bushy/static/js/787.9b863e54.chunk.js",
+    "static/media/confetti.png": "/hbd-bushy/static/media/confetti.ab7e7c5df1f9761af361.png",
+    "static/media/loons.png": "/hbd-bushy/static/media/loons.7562883a69f06661bf60.png",
+    "static/media/cake.png": "/hbd-bushy/static/media/cake.da201d6ccb6ad7ec3057.png",
     "static/media/background.jpg": "/hbd-bushy/static/media/background.41765374dd4319dcedc9.jpg",
     "static/media/bg.jpg": "/hbd-bushy/static/media/bg.3ef575ac9a3ca9d5a536.jpg",
-    "static/media/cake.png": "/hbd-bushy/static/media/cake.6a6639e0880db2aa2f34.png",
     "static/media/logo.svg": "/hbd-bushy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hbd-bushy/index.html",
-    "main.a4c4a92e.css.map": "/hbd-bushy/static/css/main.a4c4a92e.css.map",
-    "main.07e1c725.js.map": "/hbd-bushy/static/js/main.07e1c725.js.map",
+    "main.a9f77fca.css.map": "/hbd-bushy/static/css/main.a9f77fca.css.map",
+    "main.4fde3b4d.js.map": "/hbd-bushy/static/js/main.4fde3b4d.js.map",
     "787.9b863e54.chunk.js.map": "/hbd-bushy/static/js/787.9b863e54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4c4a92e.css",
-    "static/js/main.07e1c725.js"
+    "static/css/main.a9f77fca.css",
+    "static/js/main.4fde3b4d.js"
   ]
 }
