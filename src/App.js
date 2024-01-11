@@ -43,15 +43,15 @@ function App() {
     </div>
       
       <div className="cardInside">
-         <div className="inside-text">
-      <h3 className="happy">HAPPY</h3>
-      <h2 className="bday">BIRTHDAY</h2> 
-      <h3 className="toyou">to you!</h3>  
+         <div className="inside-text text-md">
+      <h3 className="happy">MO LIFE</h3>
+      <h2 className="bday">MO BLESSINGS</h2> 
+      <h3 className="toyou"></h3>  
       </div>
-        <div className="wishes font-kalam">
-        <p>Dear Friend,</p>
-        <p>Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true.</p>
-        <p className="name font-dancing">xxx</p>
+        <div className="wishes text-md font-kalam">
+        <p>Happy birthday!,</p>
+        <p> I hope your day is filled with lots of love and laughter! Even though its been a while, know that i'm still here, cheering you on and sending lots of love your way! May all of your wishes come true.</p>
+        <p className="name font-dancing">kahinga</p>
         </div>
       </div>
     </div>
